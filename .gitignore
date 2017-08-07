@@ -1,5 +1,8 @@
 *.log
 wp-config.php
+wp-config/
+wp-admin/
+wp-includes/
 wp-content/advanced-cache.php
 wp-content/backup-db/
 wp-content/backups/
@@ -9,6 +12,16 @@ wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-content/plugins
+wp-content/themes/twentyfifteen
+wp-content/themes/twentysixteen
+wp-content/themes/twentyseventeen
+
+#node
+node_modules
+
+#DS_Store
+.DS_Store
 
 /.htaccess
 /license.txt
